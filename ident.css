@@ -1,0 +1,50 @@
+
+body{
+    text-transform: capitalize;
+}
+h2{
+    padding-top: 20px;
+}
+
+header{
+    
+    height: var(--headerheight);
+    text-align: var(--textposition);
+    background: var(--heaerfootercolor);
+   
+    
+    
+}
+footer{
+   text-align: var(--textposition);
+    height:var(--footerheight);
+    background: var(--heaerfootercolor);
+}
+
+main{
+    min-height: var(--minheight)
+}
+
+:root{
+    --heaerfootercolor:burlywood;
+    --headerheight:70px;
+    --footerheight:150px;
+    --textposition:center;
+    --minheight:calc(100vh - 70px - 150px);
+}
+
+audio, video,.map {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+ padding-top:60px;
+
+}
+.mission,.ournetwork
+{
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+   padding-top:60px;
+}
